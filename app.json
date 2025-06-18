@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 // Telas
-function HomeScreen({ navigation }) {
+function Home({ navigation }) {
   return (
     <View style={styles.screenPlaceholder}>
       <Text>Página Home -</Text>
@@ -12,15 +12,15 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function PacientesScreen({ navigation }) {
+function Pacientes({ navigation }) {
   return (
     <View style={styles.screenPlaceholder}>
-      <Text>Página Pacientes </Text>
+      <Text>Pacientes </Text>
     </View>
   );
 }
 
-function FinanceiroScreen({ navigation }) {
+function sei la({ navigation }) {
   return (
     <View style={styles.screenPlaceholder}>
       <Text>Página Financeiro - Feita por outro aluno</Text>
